@@ -1,6 +1,6 @@
 import express from 'express';
 import { createServer } from 'http';
-import type{ Request, Response } from 'express';
+import { Request, Response } from 'express';
 import config from './config';
 
 const main = () => {
